@@ -7,6 +7,6 @@ console.log(owners);
 const getHeroeById = (id)  => heroes.find( (heroe) => heroe.id === id );
 console.log(getHeroeById(2));
 
-//Encontrar varios heroe por dueño
+//Encontrar varios heroes por dueño
 const getHeroeByDueño = ( dueño ) => heroes.filter( (heroe) => heroe.owner === dueño );
 console.log(getHeroeByDueño('DC'));

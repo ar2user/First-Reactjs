@@ -11,7 +11,7 @@ const saludar2 = ( nombre ) => {
 const saludar3 = ( nombre ) => `Hola, ${nombre}`;
 const saludar4 = () => 'Hola Mundo!';
 
-//Funcion que retorna un arreglo
+//Funcion que retorna un objeto
 const getUser = () => ({
     uid: '123',
     username: 'Arturo'

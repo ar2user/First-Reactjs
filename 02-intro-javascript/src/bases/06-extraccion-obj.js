@@ -26,7 +26,7 @@ console.log('* New Sintaxis ' + edad );
 console.log('* New Sintaxis ' + clave);
 console.log('* New Sintaxis ' + apellido);
 
-//Pasando atributos de un objeto a una fución con extracción moderna
+//Pasando atributos de un objeto a una función con extracción moderna
 //asignando valor por defecto de un atributo
 const retornaPersona = ( {clave, nombre, edad, dirección = 'Una calle'} ) => {
     console.log( 'Datos del objeto primario: ' + nombre, edad, dirección);
