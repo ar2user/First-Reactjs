@@ -7,7 +7,8 @@ export const GifExpertApp = () => {
 const [categories, setCategories] = useState(['Cars', 'Games', 'Music']);
 
 const addCategory = () => {
-  setCategories( cats => ['landscape', ...cats]); 
+  //setCategories(['landscape', ...categories]);
+  setCategories( (categories, nuevo = "Hola") => ['landscape', ...categories, nuevo]); 
 };
 
   return (
