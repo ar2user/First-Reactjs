@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 const ArrayObjApp = () => {
-  
+
 const firstcart = [
     {
         id: 1,
