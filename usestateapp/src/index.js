@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import ArrayObjApp from './ArrayObjApp';
 import ConditionalApp from './ConditionalApp';
 import ErrorApp from './ErrorApp';
 import NumberApp from './NumberApp';
@@ -23,5 +24,10 @@ string.render(
 const objeto = ReactDOM.createRoot(document.getElementById('object'));
 objeto.render(
     <ObjectApp />
+);
+
+const array = ReactDOM.createRoot(document.getElementById('array'));
+array.render(
+    <ArrayObjApp />
 );
 
